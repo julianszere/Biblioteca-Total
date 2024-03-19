@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffee; /* Set a warm background color */
+}
+
+main {
+    text-align: center; /* Center align all content in the main element */
+}
+
+.text-post {
+    font-size: 18px;
+    margin-left: 10vw; /* Increase left margin */
+    margin-right: 10vw; /* Increase right margin */
+    text-align: justify; /* Add this line to justify the text */
+    line-height: 1.5; /* Increase line spacing */
+}
+
+.title-reload-container {
+    display: flex;
+    align-items: center;
+}
+
+.reload-button {
+    background: none;
+    border: none;
+    display: flex; /* Add display flex */
+    align-items: center; /* Center items vertically */
+    margin-left: 10px; /* Increase margin between title and icon */
+    cursor: pointer;
+    padding: 0;
+    opacity: 0.7;
+}
+
+.reload-button img {
+    width: 16px;
+    height: 16px;
+    opacity: 0.7;
+}
